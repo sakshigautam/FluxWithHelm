@@ -14,3 +14,9 @@ spec:
       interval: 1h
   interval: 1h
   releaseName: nginx
+  values:
+    controller:
+      ingressClass: nginx-org
+      ingressClassResource:
+        name: nginx-org
+        controllerValue: "nginx.org/ingress-controller"

@@ -19,6 +19,8 @@ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 │ │ │ └── kustomization.yaml
 │ │ └── kustomization.yaml
 │ └── kustomization.yaml
+
+
 ├── .minikube/
 │ ├── kustomizations/
 │ │ └── staging/
